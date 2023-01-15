@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Form tags</title>
+</head>
+<body>
+  <form>
+    <div>
+      <label>お名前
+        <input type="text" value=”あいぜん”>
+      </label>
+
+    </div>
+
+    <div>
+      <fieldset>
+        <legend>対象の商品</legend>
+        <label>商品A<input type="checkbox"></label>
+        <label>商品B<input type="checkbox" checked></label>
+        <label>商品C<input type="checkbox"></label>
+      </fieldset>
+
+    </div>
+
+    <div>
+      種別
+        <select>
+          <option>-問い合わせ種別を選んでください</option>
+          <option>商品が届かない</option>
+          <option>商品が壊れた</option>
+          <option selected>商品が間違えて注文した</option>
+          <option>その他</option>
+        </select>
+
+    <div>
+      <label>内容
+        <textarea></textarea>
+      </label>
+    </div>
+    
+    <fieldset>
+      <legend>対象の商品</legend>
+      <label>加入済み<input type="radio" name="warranty"></label>
+      <label>未加入<input type="radio" name="warranty"></label>
+      <label>分からない<input type="radio" name="warranty" checked></label>
+    </fieldset>
+
+
+    </div>
+
+    <div>
+      <button disabled>送信</button>
+      <!-- <input type="submit" value="にじみだす"> -->
+    </div>
+  </form>
+</body>
+</html>
